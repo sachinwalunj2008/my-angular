@@ -16,7 +16,7 @@ export class ArticleComponent implements OnInit {
     this.link = 'www.google.com';
     this.votes = 10;
   }
-  voteUp() {
+  voteUp(): void {
     this.votes += 1;
   }
   voteDown(): boolean {
