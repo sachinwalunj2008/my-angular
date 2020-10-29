@@ -12,6 +12,7 @@ import { ProductsComponent } from './products/products.component';
 import { ProtectedComponent } from './protected/protected.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     FormsModule,
     AppRoutingModule,
+    MatSelectModule,
     BrowserAnimationsModule
   ],
   providers: [],
